@@ -1,0 +1,16 @@
+{
+  "name": "CUBA.Platform Demo",
+  "short_name": "CUBA.Platform Demo",
+  "display": "standalone",
+  "orientation": "natural",
+  "start_url": "/app/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/app/VAADIN/rocket.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

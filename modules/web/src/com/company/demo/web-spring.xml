@@ -8,4 +8,7 @@
     <!-- Annotation-based beans -->
     <context:component-scan base-package="com.company.demo"/>
 
+    <!-- custom HTML page initialization -->
+    <bean id="cuba_BootstrapListener"
+          class="com.company.demo.web.manifest.CustomBootstrapListener"/>
 </beans>
